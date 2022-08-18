@@ -1,0 +1,148 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.contnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.logo{
+    height: 40px;
+}
+.contopcnav{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+.opcnav{
+    
+    background: white;
+    color: black;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.opcnav:hover{
+    background: #F58DB0;
+    color: white;
+}
+.baner{
+    background: #F58DB0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+}
+.lupa{
+    color:#F58DB0;
+    cursor: pointer;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.botonwork{
+    background: white;
+    color:#F58DB0;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.botonwork:hover{
+    background: #F01B62;
+    color: white;
+}
+.contcentral{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.vistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+.cuadricula{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:15px
+}
+.columnas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap:15px
+}
+.colum1item1{
+    height: 25%;
+    width: 100%;
+}
+.colum1item2{
+    height: 45%;
+    width: 100%;
+}
+.colum1item3{
+    height: 30%;
+    width: 100%;
+}
+
+.colum2item1{
+    height: 20%;
+    width: 100%;
+}
+.colum2item2{
+    height: 30%;
+    width: 100%;
+}
+.colum2item3{
+    height: 50%;
+    width: 100%;
+}
+
+.colum3item1{
+    height: 40%;
+    width: 100%;
+}
+.colum3item2{
+    height: 20%;
+    width: 100%;
+}
+.colum3item3{
+    height: 20%;
+    width: 100%;
+}
+.colum3item4{
+    height: 20%;
+    width: 100%;
+}
